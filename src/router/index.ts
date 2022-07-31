@@ -19,6 +19,11 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('../views/json-to-table.vue'),
     name: 'json-to-table',
     path: '/json-to-table'
+  },
+  {
+    component: () => import('../views/time-data-chart.vue'),
+    name: 'time-data-chart',
+    path: '/time-data-chart'
   }
 ]
 
