@@ -24,6 +24,11 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('../views/time-data-chart.vue'),
     name: 'time-data-chart',
     path: '/time-data-chart'
+  },
+  {
+    component: () => import('../views/hex-ieee754.vue'),
+    name: 'hex-ieee754',
+    path: '/hex-ieee754'
   }
 ]
 
