@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@element-plus/icons-vue': ^2.0.6
+  '@types/node': ^18.6.4
   '@vitejs/plugin-vue': ^3.0.0
   echarts: ^5.3.3
   element-plus: ^2.2.12
@@ -21,6 +22,7 @@ dependencies:
   vue-router: registry.npmmirror.com/vue-router/4.1.3_vue@3.2.37
 
 devDependencies:
+  '@types/node': registry.npmmirror.com/@types/node/18.6.4
   '@vitejs/plugin-vue': registry.npmmirror.com/@vitejs/plugin-vue/3.0.1_vite@3.0.4+vue@3.2.37
   typescript: registry.npmmirror.com/typescript/4.7.4
   vite: registry.npmmirror.com/vite/3.0.4
@@ -121,6 +123,12 @@ packages:
     name: '@types/lodash'
     version: 4.14.182
     dev: false
+
+  registry.npmmirror.com/@types/node/18.6.4:
+    resolution: {integrity: sha512-I4BD3L+6AWiUobfxZ49DlU43gtI+FTHSv9pE2Zekg6KjMpre4ByusaljW3vYSLJrvQ1ck1hUaeVu8HVlY3vzHg==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/node/-/node-18.6.4.tgz}
+    name: '@types/node'
+    version: 18.6.4
+    dev: true
 
   registry.npmmirror.com/@types/web-bluetooth/0.0.14:
     resolution: {integrity: sha512-5d2RhCard1nQUC3aHcq/gHzWYO6K0WJmAbjO7mQJgCQKtZpgXxv1rOM6O/dBDhDYYVutk1sciOgNSe+5YyfM8A==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/web-bluetooth/-/web-bluetooth-0.0.14.tgz}
